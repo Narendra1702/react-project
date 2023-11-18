@@ -6,6 +6,7 @@ import BestServices from "./BestServices";
 import Search from "./Search";
 import Hero from "./Hero";
 import { useNavigate } from "react-router-dom";
+import Gallery from "./Gallery";
 const Home = ({addtocart, login, Productshow}) => {
   const navigate = useNavigate()
   const price=(Product) =>{
@@ -29,6 +30,9 @@ const Home = ({addtocart, login, Productshow}) => {
       {/* experience page  */}
 
       <Experience />
+
+      {/* gallery */}
+      <Gallery/>
 
       {/* clients  */}
 
