@@ -6,6 +6,8 @@ function Experience() {
     <div class="container text-left pt-4  mb-4 mt-4">
         <span className="bg-warning p-1" style={{ borderRadius: "8px" }}>
           Experience
+          Experience
+
         </span>
         <div class="row align-items-start">
           <div className="col-12 col-sm-12 col-md-6 col-lg-6">
