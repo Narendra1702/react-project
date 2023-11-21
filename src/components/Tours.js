@@ -192,7 +192,7 @@ const Toures = ({ addtocart, login, ProductShow }) => {
                 fontSize: "2rem",
               }}
             >
-              All Toures
+              All Tours
             </span>
             <img
               className="img-fluid"
