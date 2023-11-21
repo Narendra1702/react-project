@@ -3,7 +3,7 @@ import React from 'react'
 function Subscription() {
   return (
     <div>
-    <div class="container text-left">
+    <div class="container text-left w-100 ml-0 mr-0">
         <div
           class="row align-items-start "
           style={{
@@ -13,7 +13,7 @@ function Subscription() {
             paddingTop: "50px",
           }}
         >
-          <div class="col px-5">
+          <div class="col px-5 ">
             <h3 className="pb-4">
               Subscribe Now for Usefull, <br /> Travelling Information
             </h3>
@@ -34,9 +34,9 @@ function Subscription() {
               />
               <button
                 className="btn btn-lg btn-warning border-0 m-1"
-                style={{ width: "10rem" }}
+                style={{ width: "10rem" ,color:'white'}}
               >
-                Submit
+                Subscribe
               </button>
             </div>
             <p>

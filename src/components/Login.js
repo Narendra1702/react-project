@@ -44,7 +44,7 @@ function Login() {
             <input type="password" value={password}  onChange={(e)=>setpassword(e.target.value)} placeholder="    Password" />
             <button onClick={submitHandler}>Log in</button>
             <p>Don't have an account?</p>
-            <Link to='/register' style={{color:'black',position:'relative', top:'1.2rem',textDecoration:'none'}}>Register</Link>
+            <Link to='/' style={{color:'black',position:'relative', top:'1.2rem',textDecoration:'none'}}>Register</Link>
           </div>
         </div>
       </div>

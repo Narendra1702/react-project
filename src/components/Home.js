@@ -1,6 +1,6 @@
 import "./style.css";
 import Subscription from "./Subscription";
-import Clinets from "./Clinets";
+import Clinets from "./Client";
 import Experience from "./Experience";
 import BestServices from "./BestServices";
 import Search from "./Search";
@@ -37,6 +37,7 @@ const Home = ({addtocart, login, Productshow}) => {
       {/* clients  */}
 
       <Clinets />
+
       {/* Subscription  */}
 
       <Subscription />

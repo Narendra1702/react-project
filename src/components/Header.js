@@ -26,8 +26,9 @@ function Header (){
     <li class="nav-item">
     <Link class="nav-link active mx-3" aria-current="page" to='/login'>Login</Link>
   </li> <li class="nav-item">
-  <Link class="nav-link active mx-3" aria-current="page" to='/'>Register</Link>
-  
+  <Link class="nav-link active mx-3" aria-current="page" to='/register'
+  >Register</Link>
+
 </li>
        </ul>
     </div>
