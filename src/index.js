@@ -1,17 +1,19 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-
-
+import datastore from './Redux/Store';
+import { Provider } from 'react-redux';
+console.log(datastore.getState());
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+<Provider datastore={datastore}>
+<App/> 
+
+</Provider>
 );
 
 // If you want to start measuring performance in your app, pass a function

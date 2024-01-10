@@ -12,7 +12,7 @@ import Login from "./components/Login";
 import Footer from "./components/Footer";
 import Cart from "./components/Cart";
 import Price from "./components/Price";
-
+import Account from "./Redux/Account";
 export const store = createContext();
 export const store1 = createContext();
 
@@ -157,10 +157,10 @@ function App() {
               <Route path="/price" element={<Price product={product} />} />
             </Routes>
             <Footer />
-          </store1.Provider>
+           </store1.Provider>
         </store.Provider>
       </BrowserRouter>
-    </div>
+      </div>
   );
 }
 
